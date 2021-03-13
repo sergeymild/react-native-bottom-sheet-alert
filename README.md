@@ -2,7 +2,11 @@
 
 ## Getting started
 
-`$ yarn add react-native-bottom-sheet-alert`
+
+######package.json
+`"react-native-bottom-sheet-alert": "https://github.com/sergeymild/react-native-bottom-sheet-alert"`
+
+`$ yarn`
 
 ## Usage
 ```typescript
