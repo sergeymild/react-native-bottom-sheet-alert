@@ -3,7 +3,7 @@
 ## Getting started
 
 
-######package.json
+###### package.json
 `"react-native-bottom-sheet-alert": "https://github.com/sergeymild/react-native-bottom-sheet-alert"`
 
 `$ yarn`
