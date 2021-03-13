@@ -13,10 +13,12 @@
 import {BottomSheetAlert} from 'react-native-bottom-sheet-alert';
 
 BottomSheetAlert.show({
-  title: 'Dialog title', // title can be optional
+  title?: string, // title can be optional
+  multiselect?: boolean,
+  saveButton?: string,
   buttons: [
-    {text: 'Button title', style: 'cancel' | 'destruction' | 'default'}, // style can be optional (default)
+    {text: string, style?: 'cancel' | 'destructive' | 'default', checked?: boolean, data?: any}
   ]},
-  (pressed: BottomSheetAlertButton) => console.log('ButtonPressed', pressed)
+  (selected: Array<BottomSheetAlertButton>) => console.log('ButtonPressed', selected)
 )
 ```
