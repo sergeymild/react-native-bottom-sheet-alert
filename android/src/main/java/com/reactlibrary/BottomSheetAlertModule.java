@@ -34,6 +34,7 @@ public class BottomSheetAlertModule extends ReactContextBaseJavaModule {
         }
 
         BottomSheetDialog bottomSheetDialog = new BottomSheetAlert(getCurrentActivity(), options).create(actionCallback);
+        if (bottomSheetDialog == null) return;
         previousDialog = new WeakReference<>(bottomSheetDialog);
         bottomSheetDialog.show();
     }

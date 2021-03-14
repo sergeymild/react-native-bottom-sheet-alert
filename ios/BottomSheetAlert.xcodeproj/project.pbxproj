@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9244C75C25FDE89800522339 /* BottomSheetHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9244C75B25FDE89800522339 /* BottomSheetHeaderView.swift */; };
 		92CBF37125FCC80A00F6F4A7 /* BottomSheetAlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBF37025FCC80A00F6F4A7 /* BottomSheetAlertPresenter.swift */; };
 		92CBF37225FCC80A00F6F4A7 /* BottomSheetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBF36F25FCC80A00F6F4A7 /* BottomSheetAlert.swift */; };
 		92CBF37325FCC80A00F6F4A7 /* ListTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CBF36E25FCC80A00F6F4A7 /* ListTileView.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libBottomSheetAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBottomSheetAlert.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9244C75B25FDE89800522339 /* BottomSheetHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHeaderView.swift; sourceTree = "<group>"; };
 		92CBF36C25FCC80A00F6F4A7 /* BottomSheetAlertManagerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomSheetAlertManagerBridge.m; sourceTree = "<group>"; };
 		92CBF36D25FCC80A00F6F4A7 /* BottomSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetController.swift; sourceTree = "<group>"; };
 		92CBF36E25FCC80A00F6F4A7 /* ListTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTileView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9244C75B25FDE89800522339 /* BottomSheetHeaderView.swift */,
 				92CBF3C525FCCA0F00F6F4A7 /* testBottom-Bridging-Header.h */,
 				92CBF36F25FCC80A00F6F4A7 /* BottomSheetAlert.swift */,
 				92CBF36C25FCC80A00F6F4A7 /* BottomSheetAlertManagerBridge.m */,
@@ -127,6 +130,7 @@
 			files = (
 				92CBF37525FCC80A00F6F4A7 /* BottomSheetController.swift in Sources */,
 				92CBF37425FCC80A00F6F4A7 /* BottomSheetAlertManagerBridge.m in Sources */,
+				9244C75C25FDE89800522339 /* BottomSheetHeaderView.swift in Sources */,
 				92CBF37225FCC80A00F6F4A7 /* BottomSheetAlert.swift in Sources */,
 				92CBF37125FCC80A00F6F4A7 /* BottomSheetAlertPresenter.swift in Sources */,
 				92CBF37325FCC80A00F6F4A7 /* ListTileView.swift in Sources */,

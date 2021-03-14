@@ -44,6 +44,7 @@ class BottomSheetAlertPresenter {
                 let item = ListTileView(title: button["text"] as! String)
                 if let checked = button["checked"] as? Bool {
                     item.checked = checked
+                    selectedIndicies.insert(i)
                 }
                 menus.append(item)
                 item.isWarning = button["style"] as? String == "destructive"
