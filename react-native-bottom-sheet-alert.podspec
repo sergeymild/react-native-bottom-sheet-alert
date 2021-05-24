@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "FittedSheets"
+  s.dependency "FittedSheets", "1.4.6"
   # ...
   # s.dependency "..."
 end
